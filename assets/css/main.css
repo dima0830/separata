@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Didact+Gothic");
+/*@import url("../fonts/MyriadPro-Regular.css");*/
+
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url('../fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Light Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Light Condensed'), url('../fonts/Myriad-Pro-Light-Condensed.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Condensed'), url('../fonts/MYRIADPRO-COND.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Condensed Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Condensed Italic'), url('../fonts/MYRIADPRO-CONDIT.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Light'), url('../fonts/MyriadPro-Light.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold'), url('../fonts/MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Semibold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold Italic'), url('MYRIADPRO-SEMIBOLDIT.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Bold Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Condensed'), url('../fonts/MYRIADPRO-BOLDCOND.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold'), url('../fonts/MYRIADPRO-BOLD.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Italic'), url('../fonts/MYRIADPRO-BOLDIT.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Bold Condensed Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Condensed Italic'), url('../fonts/MYRIADPRO-BOLDCONDIT.woff') format('woff');
+}
+* {
+	margin:0;
+	padding:0;
+}
+ 
+body {
+	background:#FFFFFA;
+	font-family: 'Myriad Pro Condensed';
+}
+ 
+
+ nav {
+	width:100%;
+	margin: 0;
+	background:#001277;
+	padding: 0;
+}
+ 
+.menu_bar {
+	display:none;
+}
+ 
+nav ul {
+	overflow:hidden;
+	list-style:none;
+	padding: 0;
+	display: block;
+	margin:0; 
+	float: right;
+}
+ .logo{
+ 	display: block;
+ 	margin: 15px;
+ }
+nav ul li {
+	display: inline-block;
+}
+ 
+nav ul li a {
+	color:#fff;
+	padding: 20px 20px;
+	display:block;
+	text-decoration:none;
+	border-bottom: 2px solid #001277;
+
+}
+nav ul li a:hover {
+	background:#f0047f;
+	text-decoration: none;
+	color: #fff;
+}
+ 
+.titulo{
+	font-family: 'Myriad Pro Bold Condensed';
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+    color: #615B5F;
+}
